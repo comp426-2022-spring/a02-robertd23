@@ -38,11 +38,11 @@ function coinFlip() {
  */
 
 function coinFlips(flips) {
-  var results = [];
+  const out = [];
   for (let i = 0; i < flips; i++) {
-    results.push(coinFlip());
+    out.push(coinFlip());
   }
-  return results
+  return out
 }
 
 /** Count multiple flips
