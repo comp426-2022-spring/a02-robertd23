@@ -41,7 +41,7 @@ function coinFlips(flips) {
   var results = [];
   var i = 0;
   while (i < flips) {
-    results[i] = coinFlip();
+    result.push(coinFlip());
     i++;
   }
   return results;
