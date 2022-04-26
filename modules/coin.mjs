@@ -65,8 +65,8 @@ function coinFlips(flips) {
  */
 
 function countFlips(array) {
-  var heads = 0;
-  var tails = 0;
+  var headss = 0;
+  var tailss = 0;
   for (var flip in array) {
     if (flip == "heads") {
       heads++
@@ -76,7 +76,8 @@ function countFlips(array) {
     if (flip == "tails") {
       tails++
     }
-  }
+   }
+   return {heads: headss, tails: tailss}
 }
 
 /** Flip a coin!
