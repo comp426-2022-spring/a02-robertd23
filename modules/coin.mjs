@@ -67,7 +67,7 @@ function countFlips(array) {
     }
   }
   for (var flip in array) {  // for code simplification and later testing, I spereated the for loops
-    if (flip == "heads") {
+    if (flip == "tails") {
       tails++
     }
   }
