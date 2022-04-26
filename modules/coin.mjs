@@ -15,7 +15,13 @@
  */
 
 function coinFlip() {
-  return Math.random() < 0.5 ? "heads" : "tails";
+  let x = Math.floor(Math.random()*2)
+  if (x>=1) {
+    return 'heads';
+  }
+  else {
+    return 'tails';
+  }
 }
 
 /** Multiple coin flips
